@@ -44,19 +44,19 @@ Suis ces étapes pour installer et lancer le projet :
 
 # Sur Windows
 
-    .\venv\Scripts\activate
+        .\venv\Scripts\activate
 
 # Sur macOS/Linux
 
-    source venv/bin/activate
+        source venv/bin/activate
 
 3. Installe les dépendances
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 
 4. Configure la base de données
 
-    Crée une base de données PostgreSQL pour le projet.
+        Crée une base de données PostgreSQL pour le projet.
 
     À la racine du projet, crée un fichier .env et ajoute tes informations de connexion. Ce fichier ne doit jamais être committé sur Git.
 
