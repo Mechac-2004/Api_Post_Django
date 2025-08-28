@@ -1,0 +1,43 @@
+# Fichiers de la base de données
+db.sqlite3
+*.db
+
+# Fichiers d'environnement
+.env
+.flaskenv
+
+# Fichiers de cache et de compilation
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dossiers de médias et statiques
+/media/
+/static/
+
+# Fichiers spécifiques au système d'exploitation
+.DS_Store # macOS
+Thumbs.db # Windows
+desktop.ini # Windows
+
+# Dossiers d'environnement virtuel
+env/
+venv/
+.venv/
+/ENV/
+/env.bak/
+/venv.bak/
+
+# Fichiers générés par Django
+/static_collected/
+/staticfiles/
+/local_settings.py
+
+# Fichiers de log
+*.log
+
+# Fichiers d'IDE
+.idea/ # PyCharm
+.vscode/ # VS Code
+*.sublime-workspace # Sublime Text
