@@ -1,21 +1,22 @@
 # API de Posts
-    Un projet d'API pour la gestion de posts, de commentaires et d'utilisateurs, développé avec Django REST Framework.
+
+Un projet d'API pour la gestion de posts, de commentaires et d'utilisateurs, développé avec Django REST Framework.
 
 #   Fonctionnalités Clés
 
-    Gestion des Posts :
+Gestion des Posts :
 
-        Création, lecture, mise à jour et suppression de posts (CRUD).
+Création, lecture, mise à jour et suppression de posts (CRUD).
 
-    Gestion des Commentaires :
+Gestion des Commentaires :
 
-        Ajout de commentaires sur un post spécifique.
+Ajout de commentaires sur un post spécifique.
 
-        Les utilisateurs ne peuvent modifier ou supprimer que leurs propres commentaires.
+Les utilisateurs ne peuvent modifier ou supprimer que leurs propres commentaires.
 
-    Gestion des Utilisateurs :
+Gestion des Utilisateurs :
 
-        Création et lecture d'utilisateurs.
+Création et lecture d'utilisateurs.
 
 # Prérequis
 
@@ -33,25 +34,25 @@ Suis ces étapes pour installer et lancer le projet :
 
 1. Clone le dépôt
 
-git clone https://github.com/ton-nom-utilisateur/ton-nom-depot.git
+    git clone https://github.com/ton-nom-utilisateur/ton-nom-depot.git
 
-cd ton-nom-depot
+    cd ton-nom-depot
 
 2. Crée et active l'environnement virtuel
 
-python -m venv venv
+    python -m venv venv
 
 # Sur Windows
 
-.\venv\Scripts\activate
+    .\venv\Scripts\activate
 
 # Sur macOS/Linux
 
-source venv/bin/activate
+    source venv/bin/activate
 
 3. Installe les dépendances
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 4. Configure la base de données
 
@@ -74,12 +75,12 @@ DB_PORT=5432
 5. Exécute les migrations
 Ces commandes vont créer les tables de la base de données.
 
-python manage.py makemigrations
+    python manage.py makemigrations
 
-python manage.py migrate
+    python manage.py migrate
 
 6. Lance le serveur de développement
 
-python manage.py runserver
+    python manage.py runserver
 
 Ton API sera accessible à l'adresse http://127.0.0.1:8000/
