@@ -22,11 +22,11 @@ Création et lecture d'utilisateurs.
 
 Assure-toi d'avoir les logiciels suivants installés :
 
-    Python 3.8+
+Python 3.8+
 
-    pip (le gestionnaire de paquets de Python)
+pip (le gestionnaire de paquets de Python)
 
-    PostgreSQL (le serveur de base de données)
+PostgreSQL (le serveur de base de données)
 
 # Configuration de l'Environnement Local
 
@@ -34,13 +34,13 @@ Suis ces étapes pour installer et lancer le projet :
 
 1. Clone le dépôt
 
-    git clone https://github.com/ton-nom-utilisateur/ton-nom-depot.git
+        git clone https://github.com/ton-nom-utilisateur/ton-nom-depot.git
 
-    cd ton-nom-depot
+        cd ton-nom-depot
 
 2. Crée et active l'environnement virtuel
 
-    python -m venv venv
+        python -m venv venv
 
 # Sur Windows
 
@@ -62,25 +62,26 @@ Suis ces étapes pour installer et lancer le projet :
 
 
 # .env
-DB_NAME=le_nom_de_ta_base
 
-DB_USER=ton_utilisateur_bd
+    DB_NAME=le_nom_de_ta_base
 
-DB_PASSWORD=ton_mot_de_passe
+    DB_USER=ton_utilisateur_bd
 
-DB_HOST=localhost
+    DB_PASSWORD=ton_mot_de_passe
 
-DB_PORT=5432
+    DB_HOST=localhost
+
+    DB_PORT=5432
 
 5. Exécute les migrations
 Ces commandes vont créer les tables de la base de données.
 
-    python manage.py makemigrations
+        python manage.py makemigrations
 
-    python manage.py migrate
+        python manage.py migrate
 
 6. Lance le serveur de développement
 
-    python manage.py runserver
+        python manage.py runserver
 
 Ton API sera accessible à l'adresse http://127.0.0.1:8000/
